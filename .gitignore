@@ -1,0 +1,8 @@
+*__pycache__*
+.env
+env
+*.db
+instance
+*.log
+*.DS_Store*
+*.pdf
