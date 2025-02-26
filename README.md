@@ -126,7 +126,7 @@ This project provides two different approaches for handling DOCX files:
 
 2. **Run the Docker container:**
     ```sh
-    docker run -d -p 5000:5000 --env-file .env chatbot-app
+    docker run -d -p 5000:5000 chatbot-app
     ```
 
 ## Usage
