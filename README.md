@@ -71,7 +71,7 @@ This project provides two different approaches for handling DOCX files:
 
 1. **Clone the repository:**
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/LaythOud/Chatbot.git
     cd chatbot
     ```
 
