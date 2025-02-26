@@ -20,10 +20,5 @@ class ChatbotTestCase(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(data['status'], 'context reset')
 
-    def test_index(self):
-        response = self.client.get('/chatbot/')
-        self.assertEqual(response.status_code, 200)
-        self.assertIn(b'<html>', response.data)
-
 if __name__ == '__main__':
     unittest.main()

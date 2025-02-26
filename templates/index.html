@@ -80,7 +80,7 @@
             const chatMessages = document.getElementById('chat-messages');
             chatMessages.innerHTML += `<div><strong>You:</strong> ${userInput}</div>`;
 
-            const response = await fetch('/chat', {
+            const response = await fetch('/chatbot/chat', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -94,7 +94,7 @@
         }
 
         async function resetChat() {
-            const response = await fetch('/reset', {
+            const response = await fetch('/chatbot/reset', {
                 method: 'POST'
             });
 

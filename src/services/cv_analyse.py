@@ -52,7 +52,7 @@ class CVAnalyse:
 
                 if text.strip():
                     # Prepare the prompt for the LLM
-                    prompt = prompt_base.replace("{{language}}", "english").replace("{{Input}}", text)
+                    prompt = prompt_base.replace("{{Input}}", text)
 
                     # Analyze the CV text using the LLM
                     try:
