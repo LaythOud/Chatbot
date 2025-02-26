@@ -97,9 +97,19 @@ This project provides two different approaches for handling DOCX files:
     ```
 
 5. **Install dependencies**:
+    
+    `linux`
+
     ```bash
     sudo apt-get install poppler-utils
     sudo apt-get install tesseract-ocr
+    ```
+
+    `mac`
+
+    ```sh
+    brew install poppler
+    brew install tesseract
     ```
 
 6. **Run the application:**
