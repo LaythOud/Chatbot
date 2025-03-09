@@ -28,8 +28,6 @@ This project provides multiple OCR implementations for extracting text from PDFs
    - First attempts text extraction using PyPDF.
    - Falls back to Tesseract OCR if extraction fails.
 
-![OCR Approaches](data/assets/ocr_approaches.png)
-
 ## Docx Handling Approaches
 
 This project provides two different approaches for handling DOCX files:
@@ -41,8 +39,6 @@ This project provides two different approaches for handling DOCX files:
 2. **UnstructuredDocx [(unstructured)](https://github.com/Unstructured-IO/unstructured)**:
    - Uses the `unstructured` library for extracting text.
    - More powerful when dealing with complex document layouts.
-
-![Docx Handling Approaches](data/assets/docx_handling.png)
 
 ## LLM Usage
 
@@ -59,8 +55,6 @@ This project leverages Large Language Models (LLMs) for various tasks:
 3. **CV Analysis**:
    - Analyzes CVs to extract structured information such as personal details, education history, work experience, skills, projects, and certifications.
    - Uses OpenAI's GPT models to process and analyze the extracted text.
-
-![LLM Usage](data/assets/llm_usage.png)
 
 The project provides two implementations for LLMs:
 
